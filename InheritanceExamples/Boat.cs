@@ -18,6 +18,10 @@ namespace InheritanceExamples
             this.waterDrag = waterDrag;
         }
 
+        public Boat()
+        {
+
+        }
         public override void Move()
         {
             base.Move();

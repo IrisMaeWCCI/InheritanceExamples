@@ -14,6 +14,17 @@ namespace InheritanceExamples
             boat1.Move();
             boat1.Move();
             Console.WriteLine("Boat " + boat1.GetDistanceTraveled());
+
+
+            Automobile car1 = new Automobile(4, 4, 20, 5, 500, "Robust Red", 260);
+            car1.Move();
+            car1.Color = "Glittering Galant Gold";
+            Console.WriteLine("Automobile " + car1.GetDistanceTraveled());
+
+
+            AirCraft plane1 = new AirCraft(100, 100000, "Purple", 600);
+            Console.WriteLine("Aircraft " + plane1.GetDistanceTraveled());
+
         }
     }
 }

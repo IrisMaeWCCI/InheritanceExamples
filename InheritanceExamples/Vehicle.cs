@@ -24,6 +24,9 @@ namespace InheritanceExamples
         public string Color { get; set; }
         public double MyProperty { get; set; }
 
+        private double gearRatio;
+        private double gearRatio;
+
         //constructors //you always need a default constructor, and especially so with inheritance
         //what is a constructor signature
         public Vehicle()
